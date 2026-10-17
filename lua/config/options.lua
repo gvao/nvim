@@ -18,6 +18,7 @@ vim.opt.hlsearch = true
 vim.opt.incsearch = true
 
 -- Visual e Interface
+vim.cmd("syntax on")
 vim.opt.termguicolors = true
 vim.opt.cursorline = true
 vim.opt.signcolumn = "yes"
