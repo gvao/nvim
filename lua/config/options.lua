@@ -19,6 +19,14 @@ vim.opt.incsearch = true
 
 -- Visual e Interface
 vim.cmd("syntax on")
+vim.cmd("colorscheme retrobox")
+-- Catppuccin 
+-- Tokyo Night
+-- Gruvbox
+-- OneDark
+-- Rose Pine
+-- Kanagawa
+
 vim.opt.termguicolors = true
 vim.opt.cursorline = true
 vim.opt.signcolumn = "yes"
