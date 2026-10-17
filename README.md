@@ -1,12 +1,12 @@
 # Neovim Configuration
 
-Configuração moderna, rápida e modular para o **Neovim (v0.11+)**, com suporte completo a LSP, realce de sintaxe avançado com Treesitter e autocompletion de alta performance.
+Configuração moderna, ultra leve e modular para o **Neovim**, com suporte a LSP, autocompletion e destaque de sintaxe nativo (sem dependência de compiladores C ou plugins pesados).
 
 ## 📦 Plugins e Recursos
 
 - **Gerenciador de Plugins:** [lazy.nvim](https://github.com/folke/lazy.nvim)
-- **Syntax Highlighting & Indentação:** [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) (branch `master`)
-- **LSP:** [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) com auto-detecção de binários instalados no sistema
+- **Syntax Highlighting:** Nativo do Neovim (`syntax on`), leve e rápido para qualquer ambiente (Linux, Termux, etc.)
+- **LSP:** [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) com detecção automática dos servidores instalados
 - **Autocompletar:** [blink.cmp](https://github.com/saghen/blink.cmp)
 
 ## 📁 Estrutura
@@ -22,8 +22,7 @@ Configuração moderna, rápida e modular para o **Neovim (v0.11+)**, com suport
     │   └── options.lua
     └── plugins/
         ├── completion.lua
-        ├── lsp.lua
-        └── treesitter.lua
+        └── lsp.lua
 ```
 
 ## 🚀 Instalação
