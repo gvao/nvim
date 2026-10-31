@@ -19,7 +19,7 @@ vim.opt.incsearch = true
 
 -- Visual e Interface
 vim.cmd("syntax on")
-vim.cmd("colorscheme retrobox")
+-- vim.cmd("colorscheme Catppuccin ")
 -- Catppuccin 
 -- Tokyo Night
 -- Gruvbox
